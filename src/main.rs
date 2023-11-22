@@ -4,6 +4,7 @@ use std::time::Duration;
 use std::io::{self, Read};
 
 //main
+//Test
 fn main() {
     loop {
         let curl_output = Command::new("curl")
