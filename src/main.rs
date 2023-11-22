@@ -3,6 +3,7 @@ use std::thread;
 use std::time::Duration;
 use std::io::{self, Read};
 
+//main
 fn main() {
     loop {
         let curl_output = Command::new("curl")
